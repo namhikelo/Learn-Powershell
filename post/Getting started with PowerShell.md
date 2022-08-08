@@ -7,6 +7,7 @@ Microsoft PowerShell là ngôn ngữ kịch bản và một tiện ích dòng l�
 
 <h3 align="left"><b>Allow scripts stored on your machine to run unsigned</b></h3>
 Bây giờ chúng ta tạo 1 file có tên 'HelloWorld.ps1' với nội dung 
+
 ```bash
 Write-Output "Hello World!"
 ```
