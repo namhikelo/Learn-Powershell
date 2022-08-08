@@ -27,3 +27,10 @@ Bạn sẽ gặp lỗi thông báo rằng các tập lệnh đã bị vô hiệu
 - AllSigned     Scripts will only run if signed by a trusted publisher (including locally-created scripts).
 
 - Unrestricted      All scripts will run regardless of who created them and whether or not they are signed.
+
+Để chạy được lệnh chúng ta chạy PowerShell chạy Run As Administrator
+<p align="left"><img src="/img/1.png" alt="Run PowerShell As Administrator"></p>
+
+```bash
+Set-ExecutionPolicy RemoteSigned
+```
