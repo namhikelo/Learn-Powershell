@@ -14,6 +14,16 @@ Write-Output "Hello World!"
 
 Thì chúng ta xuất hiện lỗi 
 
-<p align="left">
-<img src="/img/errorPowershell.png" alt="error run PowerShell">
-</p>
+<p align="left"><img src="/img/errorPowershell.png" alt="error run PowerShell"></p>
+
+Bạn sẽ gặp lỗi thông báo rằng các tập lệnh đã bị vô hiệu hóa trên hệ thống của bạn. Điều này là vì lý do bảo mật.
+
+Để ngăn các tập lệnh độc hại chạy trên hệ thống của bạn, PowerShell thực thi chính sách thực thi. Có bốn chính sách thực thi bạn có thể sử dụng:
+
+- Restricted        Scripts won’t run. Period. (Default setting)
+
+- RemoteSigned      Locally-created scripts will run. Scripts that were created on another machine will not run unless they are signed by a trusted publisher.
+
+- AllSigned     Scripts will only run if signed by a trusted publisher (including locally-created scripts).
+
+- Unrestricted      All scripts will run regardless of who created them and whether or not they are signed.
