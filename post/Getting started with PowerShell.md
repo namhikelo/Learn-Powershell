@@ -11,3 +11,9 @@ Bây giờ chúng ta tạo 1 file có tên 'HelloWorld.ps1' với nội dung
 ```bash
 Write-Output "Hello World!"
 ```
+
+Thì chúng ta xuất hiện lỗi 
+
+<p align="left">
+<img src="/img/errorPowershell.png" alt="error run PowerShell">
+</p>
